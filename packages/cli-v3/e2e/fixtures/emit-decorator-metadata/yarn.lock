@@ -32,26 +32,26 @@ __metadata:
   linkType: hard
 
 "@grpc/grpc-js@npm:^1.7.1":
-  version: 1.13.0
-  resolution: "@grpc/grpc-js@npm:1.13.0"
+  version: 1.14.5
+  resolution: "@grpc/grpc-js@npm:1.14.5"
   dependencies:
-    "@grpc/proto-loader": "npm:^0.7.13"
+    "@grpc/proto-loader": "npm:^0.8.0"
     "@js-sdsl/ordered-map": "npm:^4.4.2"
-  checksum: 10c0/c760d5eb5ee07c4cfd5dcd83ee62d5232d5776b5d1ce5d436edc53402ec16ef053d3a283f48ce832f4635009dbd411ac7586495a7d053fc5f202e95811cf4129
+  checksum: 10c0/25a44d80127ed166181fc3db25d9815a62081e33331938bdae31830296ec94a1c8ed3ade79fae26642ec3158e97a79936145c680f95c19528ffff334cca491e0
   languageName: node
   linkType: hard
 
-"@grpc/proto-loader@npm:^0.7.13":
-  version: 0.7.13
-  resolution: "@grpc/proto-loader@npm:0.7.13"
+"@grpc/proto-loader@npm:^0.8.0":
+  version: 0.8.1
+  resolution: "@grpc/proto-loader@npm:0.8.1"
   dependencies:
     lodash.camelcase: "npm:^4.3.0"
     long: "npm:^5.0.0"
-    protobufjs: "npm:^7.2.5"
+    protobufjs: "npm:^7.5.5"
     yargs: "npm:^17.7.2"
   bin:
     proto-loader-gen-types: build/bin/proto-loader-gen-types.js
-  checksum: 10c0/dc8ed7aa1454c15e224707cc53d84a166b98d76f33606a9f334c7a6fb1aedd3e3614dcd2c2b02a6ffaf140587d19494f93b3a56346c6c2e26bc564f6deddbbf3
+  checksum: 10c0/900814c2cbedd76ce5de083adc0696f746a652a79eeb09e8d04d53b864179e2c9aa127997b9bba8ef5f0ce0c11ee700a0e467732eb6cb1f3efdb952583533ccf
   languageName: node
   linkType: hard
 
@@ -1172,7 +1172,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"protobufjs@npm:^7.2.5, protobufjs@npm:^7.3.0":
+"protobufjs@npm:^7.3.0, protobufjs@npm:^7.5.5":
   version: 7.6.6
   resolution: "protobufjs@npm:7.6.6"
   dependencies:

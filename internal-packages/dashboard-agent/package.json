@@ -21,7 +21,7 @@
     "@trigger.dev/sdk": "workspace:*",
     "ai": "^6.0.116",
     "drizzle-orm": "^0.45.0",
-    "zod": "4.5.4"
+    "zod": "4.6.6"
   },
   "devDependencies": {
     "@ai-sdk/provider": "3.0.8",
